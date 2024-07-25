@@ -21,3 +21,12 @@ git commit -m "Mensaje descriptivo de lo que estoy guardando dentro del commit"
 git add <nombre-archivo>
 git commit --amend
 ```
+
+## Visualizar el timelime de los commits (instaneas/snapshot)
+
+```sh
+git log # versión larga 
+git log --oneline # versión corta
+git log --oneline -2 # ver una cantidad limitada de commits 
+```
+Nota: Para salir de la aplicación 'less' tengo que aprentar la tecla 'q' -> quit 
