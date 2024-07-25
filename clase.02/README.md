@@ -1,5 +1,7 @@
 # Clase 02 - Git Desarrollo Colaborativo
 
+![Git-Github](_ref/git-github.png)
+
 ## Repaso de comandos para realizar persistir los cambios de archivos dentro del repositorio
 
 ```sh
