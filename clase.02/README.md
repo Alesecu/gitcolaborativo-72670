@@ -70,6 +70,36 @@ git push -u <remoto> <rama-local>
 git push -u origin main
 ```
 
+## Para traernos los cambios que sucedieron en el remoto
+
+```sh
+git fetch # Me va a traer la metadata actualizada del remoto (.git)
+```
+
+## Visualizar una vez hecho eso los ocurrio
+
+```sh
+git branch -av
+```
+
+```sh
+git log --oneline --all
+```
+
+```sh
+git status
+```
+
+## Traerme definitivamente los cambios (commits)
+
+```sh
+git pull # Hace un fetch y luego pull
+```
+
+
+
+
+
 
 
 
