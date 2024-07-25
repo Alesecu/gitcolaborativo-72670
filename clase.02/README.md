@@ -48,3 +48,29 @@ Archivo para desestimar diferentes carpetas y archivos que no quiero que formen 
 ```sh
 touch .gitignore
 ```
+
+## Subiendo nuestro local al remoto
+
+```sh
+git remote add <alias> <url>
+git remote add origin git@github.com:mlapeducacionit/git-72670.git # Usen HTML
+```
+
+## Ver si tengo ya un remoto en mi local
+
+```sh
+git remote # Versión corta
+git remote -v # Versión detallada
+```
+
+## Para subir los cambios
+
+```sh
+git push -u <remoto> <rama-local>
+git push -u origin main
+```
+
+
+
+
+
