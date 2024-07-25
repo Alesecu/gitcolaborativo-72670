@@ -12,3 +12,10 @@ Los archivos elegimos y colocados en el Staging Area vamos a querer persistirlos
 ```sh
 git commit -m "Mensaje descriptivo de lo que estoy guardando dentro del commit"
 ```
+
+## Corregir un commit (tanto el mensaje como el contenido)
+
+```sh
+git add <nombre-archivo>
+git commit --amend
+```
