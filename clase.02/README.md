@@ -41,3 +41,10 @@ git add --patch
 # s -> split -> Le propongo a git que intente hacer la división
 # e -> Decido yo que línea quiero enviar al staging area
 ```
+
+## .gitignore 
+Archivo para desestimar diferentes carpetas y archivos que no quiero que formen parte del repositorio
+
+```sh
+touch .gitignore
+```
