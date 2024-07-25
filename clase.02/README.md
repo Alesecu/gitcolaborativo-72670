@@ -30,3 +30,14 @@ git log --oneline # versión corta
 git log --oneline -2 # ver una cantidad limitada de commits 
 ```
 Nota: Para salir de la aplicación 'less' tengo que aprentar la tecla 'q' -> quit 
+
+## Hacer commits de parte de un archivo
+
+```sh
+git add --patch
+# Menú interactivo, donde git me va a ir preguntando que quiero hacer con lo hunks
+# y -> Si quiero marcar hunk para enviar al staging area
+# n -> No quiero marcar hunk para enviar al staging area
+# s -> split -> Le propongo a git que intente hacer la división
+# e -> Decido yo que línea quiero enviar al staging area
+```
