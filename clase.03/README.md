@@ -1,3 +1,8 @@
 # Clase 03 - Git Desarrollo Colaborativo
 
-## Repaso
+## Ramas (Branches)
+
+![estructuras-ramas](_ref/basica.png)
+
+![Alt text](_ref/avanzada.png)
+
