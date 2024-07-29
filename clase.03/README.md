@@ -61,7 +61,7 @@ IMPORTANTE: Si los integrantes del proyecto no estan todos para la fusión. Debo
 
 ## Tipos de fusiones
 
-* Fast-Fordward: Este tipo de fusión, git lo hace automaticamente
+* Fast-forward: Este tipo de fusión, git lo hace automaticamente
 * Tiple vía: Este tipo de fusión, git lo hace automaticamente
 * Conflicto: Este tipo de funsión, git no lo puede resolver automaticamente. Lo tenemos que solucionar nosotros.
 
