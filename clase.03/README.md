@@ -12,3 +12,13 @@
 git branch <nombre-rama>
 ```
 
+## Moverse entre ramas
+
+```sh
+git switch <nombre-rama>
+git switch feature/ramas
+```
+
+
+
+
