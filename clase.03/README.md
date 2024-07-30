@@ -17,6 +17,7 @@ git branch <nombre-rama>
 ```sh
 git switch <nombre-rama>
 git switch feature/ramas
+git switch - # Toggle entre las últimas 2 ramas en las que estuve
 ```
 
 
