@@ -56,11 +56,38 @@ git merge feature/ramas
 * Tiple vía: Este tipo de fusión, git lo hace automaticamente
 * Conflicto: Este tipo de funsión, git no lo puede resolver automaticamente. Lo tenemos que solucionar nosotros.
 
+## Como subir al repositorio remoto una rama
+
+```sh
+git push origin <nombre-rama-que-quiero-subir>
+git push origin dev
+```
+
+## Actualizar la metada que se encuentra en el respositorio remoto
+
+```sh
+git fetch
+```
+
+## Para listar todas las ramas
+
+```sh
+git branch -a
+```
+
+## Para que la rama remota se descargué me tengo que mover a la rama
+
+```sh
+git switch dev
+```
+
+
 ## Clientes de GIT con GUI (Interfaz Gráfica)
 
 * GitHub Desktop <https://github.com/apps/desktop>
 * GitKraken <https://www.gitkraken.com/>
 * Alternatives <https://alternativeto.net/software/gitkraken/>
+
 
 
 
