@@ -28,6 +28,13 @@ git branch -d feature/ramas # Si no tengo commits dentro de la rama que no fuero
 git branch -D feature/ramas
 ```
 
+## Para ver todas las ramas del proyecto
+
+```sh
+git log --oneline --decorate --graph --all
+```
+
+
 
 
 
