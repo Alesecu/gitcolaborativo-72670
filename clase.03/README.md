@@ -50,17 +50,19 @@ git merger <nombre-de-la-rama-que-me-quiero-traer-a-main>
 git merge feature/ramas
 ```
 
+## Tipos de fusiones
+
+* Fast-forward: Este tipo de fusión, git lo hace automaticamente
+* Tiple vía: Este tipo de fusión, git lo hace automaticamente
+* Conflicto: Este tipo de funsión, git no lo puede resolver automaticamente. Lo tenemos que solucionar nosotros.
+
 ## Clientes de GIT con GUI (Interfaz Gráfica)
 
 * GitHub Desktop <https://github.com/apps/desktop>
 * GitKraken <https://www.gitkraken.com/>
 * Alternatives <https://alternativeto.net/software/gitkraken/>
 
-## Tipos de fusiones
 
-* Fast-forward: Este tipo de fusión, git lo hace automaticamente
-* Tiple vía: Este tipo de fusión, git lo hace automaticamente
-* Conflicto: Este tipo de funsión, git no lo puede resolver automaticamente. Lo tenemos que solucionar nosotros.
 
 
 
