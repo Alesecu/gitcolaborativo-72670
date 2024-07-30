@@ -40,7 +40,15 @@ git log --oneline --decorate --graph --all
 git diff <nombre-de-la-rama> # Dependiendo de donde este (O sea en que rama tenga activa) es lo que me va a mostrar el git diff
 ```
 
-## 
+## Git Merge (Fusiones)
+
+Nota: Tengo que estar ubicado en la rama en la cual me quiero traer los cambios. O sea si tengo la rama feature/ramas y quiero traerme los cambios a main. Tengo queestar parado sobre la rama main y ejecutar el siguiente comando.
+
+```sh
+git switch main
+git merger <nombre-de-la-rama-que-me-quiero-traer-a-main>
+git merge feature/ramas
+```
 
 
 
