@@ -56,7 +56,11 @@ git merge feature/ramas
 * GitKraken <https://www.gitkraken.com/>
 * Alternatives <https://alternativeto.net/software/gitkraken/>
 
+## Tipos de fusiones
 
+* Fast-forward: Este tipo de fusión, git lo hace automaticamente
+* Tiple vía: Este tipo de fusión, git lo hace automaticamente
+* Conflicto: Este tipo de funsión, git no lo puede resolver automaticamente. Lo tenemos que solucionar nosotros.
 
 
 
