@@ -34,6 +34,14 @@ git branch -D feature/ramas
 git log --oneline --decorate --graph --all
 ```
 
+## Comparar entre ramas
+
+```sh
+git diff <nombre-de-la-rama> # Dependiendo de donde este (O sea en que rama tenga activa) es lo que me va a mostrar el git diff
+```
+
+## 
+
 
 
 
