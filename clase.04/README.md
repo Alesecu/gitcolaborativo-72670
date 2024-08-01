@@ -27,3 +27,22 @@ git diff stash@{0} dev
 git stash pop # Además de traernos la info, borra el stash. Siempre y cuando no haya conflicto.
 ```
 
+## Traigo un stash especifico al WD.
+
+```sh
+git stash apply # el último (No elimina)
+git stash apply 4 # traer el stash 4 en particular
+```
+
+## Borro un stash
+
+```sh
+git stash drop # el último
+git stash drop 5 # borra el stash 5 en particular
+```
+
+## El ayuda del comando
+
+```sh
+git stash --help
+```
