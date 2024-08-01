@@ -14,3 +14,8 @@ git stash -m "Comando para crear un stash"
 git diff stash@{0} dev
 ```
 
+## Traigo un stash al WD. (Es el último stash)
+
+```sh
+git stash pop # Además de traernos la info, borra el stash. Siempre y cuando no haya conflicto.
+```
