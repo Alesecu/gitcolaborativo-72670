@@ -75,6 +75,27 @@ git config --global --get-regexp alias
 # Git RESET
 Me permite deshacer un commit o commits (cambios) en el repositorio. Los cambios deshechos se van a colocar en el área de trabajo o el área de staging.
 
+## 3 tipos de resets
 
+1. Reset Soft
+Va a borrar el commit o los commits seleccinados y arrojar los cambios al staging area
 
+```sh
+git reset --soft <hash>
+```
 
+2. Reset Mixed
+Va a borrar el commit o los commits seleccionados y arrojar el contenido de esos commits dentro de la área Working directory.
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+3. Reset Hard (CUIDADO)
+Va a borrar el commit o los commits seleccionados y descargar el contenido. O sea los cambios se pierden.
+
+```sh
+git reset <hash>
+git reset --hard <hash>
+```
