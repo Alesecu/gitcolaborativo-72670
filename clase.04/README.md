@@ -72,3 +72,9 @@ git config --global --unset alias.ll ## me quita el alias ll
 git config --global --get-regexp alias
 ```
 
+# Git RESET
+Me permite deshacer un commit o commits (cambios) en el repositorio. Los cambios deshechos se van a colocar en el área de trabajo o el área de staging.
+
+
+
+
