@@ -59,3 +59,16 @@ git config --global alias.c "commit -m"
 git config --global alias.l "log --oneline"
 git config --global alias.ll "log --oneline --all --graph --decorate"
 ```
+
+## Quitar alias
+
+```sh
+git config --global --unset alias.ll ## me quita el alias ll
+```
+
+## Listar los alias configurados
+
+```sh
+git config --global --get-regexp alias
+```
+
