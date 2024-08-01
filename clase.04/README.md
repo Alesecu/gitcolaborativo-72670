@@ -99,3 +99,8 @@ Va a borrar el commit o los commits seleccionados y descargar el contenido. O se
 git reset <hash>
 git reset --hard <hash>
 ```
+
+# Git Cherry Pick
+Permite selecionar un commit o varios de manera independiente y colocars en otra rama.
+
+
