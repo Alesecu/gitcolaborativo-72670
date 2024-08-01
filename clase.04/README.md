@@ -103,4 +103,8 @@ git reset --hard <hash>
 # Git Cherry Pick
 Permite selecionar un commit o varios de manera independiente y colocars en otra rama.
 
+# Selecciono un único commit 
 
+```sh
+git cherry-pick <hash>
+```
