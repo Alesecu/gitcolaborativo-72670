@@ -136,3 +136,7 @@ git cherry-pick <hash>..<hash>
 Es una herramienta para interacturar con los repositorio remotos de GITHUB.
 
 <https://cli.github.com/>
+
+# Herramienta de terminal para trabajar con Github y Azure
+
+<https://learn.microsoft.com/en-us/azure/devops/repos/git/share-your-code-in-git-cmdline?view=azure-devops>
