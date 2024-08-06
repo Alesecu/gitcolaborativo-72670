@@ -17,7 +17,18 @@ Nos permiten tener un seguimiento sobre posibles bugs o errores en nuestras apli
 ## Trabajando con colaboradores
 Cuando yo conozco a las personas que van a trabajar conmigo puedo agrearlos al repositorio en el cual quiero trabajar para ellos puedan acceder y trabajar como si ellos también fueran dueños del repositorio.
 
+## Git Blame
+Me va a permitir ver línea por línea quien fue el último que modificó esa línea y en que commit se hizo el cambio.
 
+```sh
+git blame <nombre-archivo>
+git blame <nombre-archivo> -L # rango de líneas
+git blame <nombre-archivo> -e o -s # correo o nombre del que hizo el commit
+```
+
+```sh
+git blame --help
+```
 
 
 
