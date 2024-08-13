@@ -128,5 +128,9 @@ git rebase --skip # salto ese conflicto
 git rebase --abort
 ```
 
+## GIT REBASE Interactivo
 
+```sh
+git rebase -i
+```
 
