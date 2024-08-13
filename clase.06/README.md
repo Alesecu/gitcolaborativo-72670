@@ -52,6 +52,15 @@ git push origin v0.1.2
 git push origin v1.0.0
 ```
 
+# GIT RESTORE
+Me permitwe descartar cambios en el directorio de trabajo o área de staging área. Nos permite revertir archivos a un estado anterior.
+
+
+
+
+
+
+
 
 
 
