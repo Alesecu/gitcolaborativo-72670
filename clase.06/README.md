@@ -134,3 +134,12 @@ git rebase --abort
 git rebase -i
 ```
 
+## Opciones de git rebase
+
+* pick: Mantener el commit tal como está.
+* reword: Cambiar el mensaje del commit.
+* edit: Hacer una pausa en el rebase para que puedas modificar los archivos del commit o hacer nuevos commits.
+* squash: Combinar el commit con el anterior.
+* fixup: Similar a squash, pero descarta el mensaje del commit actual.
+* drop: Eliminar el commit por completo.
+
