@@ -55,6 +55,36 @@ git push origin v1.0.0
 # GIT RESTORE
 Me permitwe descartar cambios en el directorio de trabajo o área de staging área. Nos permite revertir archivos a un estado anterior.
 
+```sh
+git restore . <nombre-archivo>
+git restore --source=HEAD <nombre-archivo>
+git restore --source=HEAD clase.02/README.md # Ejemplo
+```
+
+## Recuperar una versión anterior del archivo
+
+```sh
+git restore --source=<hash> clase.02/README.md
+git restore --source=fd1a2 clase.02/README.md
+```
+## Recuperar todos los archivos en una versión anterior
+
+
+```sh
+git restore --source=fd1a2 *.java
+```
+
+## Eliminar archivos del área de preparación (staging area)
+
+```sh
+git restore --staged <nombre-archivo>
+```
+
+## También puedo restaurar un parte del archivo
+
+```sh
+git restore --patch 
+```
 
 
 
