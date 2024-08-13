@@ -26,3 +26,10 @@ git tag -a v0.0.1 78279b9 -m "Esta es la primera versión de nuestra aplicación
 ```sh
 git tag -l
 ```
+
+## Como eliminar un tag
+
+```sh
+git tag -d <nombre-tag>
+```
+
