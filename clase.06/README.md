@@ -89,9 +89,23 @@ git restore --patch
 # GIT REVERT
 Me permite deshacer un commit y crear uno nuevo con una versión anterior del archivo/s
 
+## Revierte un commit en particular
 
+```sh
+git revert <hash>
+```
 
+## Revierte un rango de commit en particular
 
+```sh
+git revert <hash>..<hash>
+```
+
+## Revierte un commit pero no hace el commit del revert...
+
+```sh
+git revert --no-commit <hash>
+```
 
 
 
