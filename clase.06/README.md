@@ -143,3 +143,6 @@ git rebase -i
 * fixup: Similar a squash, pero descarta el mensaje del commit actual.
 * drop: Eliminar el commit por completo.
 
+## Gitflow
+
+<https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow>
