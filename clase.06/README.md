@@ -33,3 +33,25 @@ git tag -l
 git tag -d <nombre-tag>
 ```
 
+## Mostrar la info de la etiqueta
+
+```sh
+git show <nombre-tag>
+```
+
+## Compartir un tag -> Subirlo a nuestro repo remoto
+
+```sh
+git push origin --tags # NO USAR -> Subir todos los tags
+```
+
+```sh
+git push origin <nombre-etiqueta>
+git push origin v0.0.1
+git push origin v0.1.2
+git push origin v1.0.0
+```
+
+
+
+
