@@ -86,6 +86,10 @@ git restore --staged <nombre-archivo>
 git restore --patch 
 ```
 
+# GIT REVERT
+Me permite deshacer un commit y crear uno nuevo con una versión anterior del archivo/s
+
+
 
 
 
