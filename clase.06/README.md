@@ -110,6 +110,8 @@ git revert --no-commit <hash>
 # GIT REBASE
 Otro tipo de fusión donde me traigo los cambios (commits) pero esos commits se vuelve hacer creando nuevos hashes
 
-
+```sh
+git rebase <rama>
+```
 
 
