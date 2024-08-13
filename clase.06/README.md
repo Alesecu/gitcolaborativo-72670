@@ -114,4 +114,19 @@ Otro tipo de fusión donde me traigo los cambios (commits) pero esos commits se 
 git rebase <rama>
 ```
 
+```sh
+git switch feature/rebase
+git rebase main
+# Soluciono conflictos. Y le aviso que puede continuar el rebase
+git rebase --continue
+git rebase --skip # salto ese conflicto
+```
+
+# Aborto el rebase 
+
+```sh
+git rebase --abort
+```
+
+
 
